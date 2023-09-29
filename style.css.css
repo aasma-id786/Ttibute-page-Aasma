@@ -1,0 +1,182 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html, body{
+	font-family: 'Roboto', sans-serif, arial;
+	font-size:15px;
+}
+
+
+/* Header Section class are called */
+.container{
+	  width: 1170px;
+      margin: 0px auto;
+}
+.width-100{
+	width: 100%;
+    float: left;
+}
+.width-50{
+	width: 50%;
+    float: left;
+}
+.width-25{
+	width: 25%;
+    float: left;
+}
+.header{
+	padding-top: 20px;
+    padding-bottom: 60px;
+}
+.header-menu{
+	list-style: none;
+    margin-top: 10px;
+}
+.header-menu li{
+	float: left;
+	font-size: 20px;
+}
+.header-menu li a{
+	font-size: 17px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+}
+.button-Job-Post{
+	background-color: #e34216;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+}
+.button-Job-Search{
+	background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Search Section class are called */
+
+.banner-section{
+	background-image: url("https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2020/10/18102557/social-media-job-search-1024x512.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 450px;
+    position: relative;
+    width: 100%;
+}
+.banner-heading{
+	font-size: 50px;
+    color: white;
+    padding-top: 70px;
+}
+.banner-para{
+	font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+.Search-Sect{
+	margin-top: 40px;
+    width: 25%;
+    float: left;
+    position: relative;
+}
+.search-textbox{
+	height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    border-top: none;
+    border-bottom: none;
+    border-color: #d9d9d9;
+    border-right: none;
+    border-width: 1px;
+}
+.Search-button{
+	width: 100%;
+    height: 40px;
+    background-color: #e34216;
+    border: none;
+    color: white;
+}
+.Search-Sect .icons{
+	position: absolute;
+    top: 12px;
+    right: 10px;
+}
+/* Catagory Section calls*/
+
+.width-33{
+	width: 33%;
+    float: left;
+}
+.width-66{
+	width: 66%;
+    float: left;
+}
+.skill-section{
+	background-color: #00000008;
+    padding-top: 40px;
+    padding-bottom: 10px;
+	
+}
+.skill-list{
+	background-color: white;
+    width: 23%;
+    float: left;
+    margin-left: 15px;
+    padding-top: 10px;
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+}
+.skill-list img{
+	width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+.skill-list h4{
+	font-size: 16px;
+    color: #313538;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.view-button{
+	width: 45%;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e34216;
+    color: #fff;
+    font-size: 11px;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+
+/* Recent job Section calls*/
+
+.recent-job{
+	padding-top: 50px;
+    background-color: #f0f3fa;
+    padding-bottom: 60px
+}
+.recent-job-heading{
+	text-align: center;
+    color: #343a40;
+}
+.recent-job-sub-heading{
+	text-align: center;
+    margin-bottom: 30px;
+}
